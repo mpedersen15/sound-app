@@ -24,7 +24,7 @@ export class HelloIonicPage {
 		});*/
 		
 		platform.ready().then(() => {
-			this.file = new MediaPlugin('/android_asset/www/assets/song.m4a',(status) => {
+			this.file = new MediaPlugin('/android_asset/www/assets/fwam.wav',(status) => {
 				console.log(status);
 				this.status = status;
 			});
